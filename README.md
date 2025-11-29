@@ -264,25 +264,25 @@ If you find our survey useful for your research, please cite the following paper
 
 | Paper | Venue | Date | Constraint | Code |
 | -------- | :--------: | -------- | :--------: | :--------: |
-| [A Fused CP Factorization Method for Incomplete Tensors](https://doi.org/10.1109/TNNLS.2018.2851612) | IEEE TNNLS | 2018 | $\mathcal{R}_{\text{Lap}}$ |
-| [Revealing heterogeneous spatiotemporal traffic flow patterns of urban road network via tensor decomposition-based clustering approach](https://doi.org/10.1016/j.physa.2019.03.053) | Physica A: Statistical Mechanics and its Applications | 2019 | $\mathcal{R}_{\text{Lap}}$ | |
-| [Urban road traffic condition forecasting based on sparse ride-hailing service data](https://doi.org/10.1049/iet-its.2019.0338) | IET Intelligent Transport Systems | 2020 | $\mathcal{R}_{\text{Lap}}$ |
-| [Toward urban traffic scenarios and more: a spatio-temporal analysis empowered low-rank tensor completion method for data imputation](https://doi.org/10.1080/13658816.2023.2234434) | International Journal of Geographical Information Science | 2023 | $\mathcal{R}_{\text{Lap}}$ | [Code](https://figshare.com/articles/online_resource/ST-LRTC_Code_Data_zip/20289078) |
-| [Correlating sparse sensing for large-scale traffic speed estimation: A Laplacian-enhanced low-rank tensor kriging approach](https://doi.org/10.1016/j.trc.2023.104190) | Transportation Research Part C | 2023 | $\mathcal{R}_{\text{Lap}}$ | [GitHub](https://github.com/tongnie/tensor4kriging) |
-| [Spatial–temporal regularized tensor decomposition method for traffic speed data imputation](https://doi.org/10.1007/s41060-023-00412-w) | International Journal of Data Science and Analytics | 2024 | $\mathcal{R}_{\text{Lap}}$ |
-| [Low-Rank Tensor Completion With 3-D Spatiotemporal Transform for Traffic Data Imputation](https://doi.org/10.1109/TITS.2024.3422214) | IEEE TITS | 2024 | $\mathcal{R}_{\text{Lap}}$ |
-| [Internet traffic tensor completion with tensor nuclear norm](https://doi.org/10.1007/s10589-023-00545-5) |  Computational Optimization and Applications | 2024 | $\mathcal{R}_{\text{Lap}}$ |
-| [Laplacian Convolutional Representation for Traffic Time Series Imputation](https://doi.org/10.1109/TKDE.2024.3419698) | IEEE TKDE | 2024 | $\mathcal{R}_{\text{Lap}}$ | [GitHub](https://github.com/xinychen/LCR) |
-| [TuckerAPP: A novel spatiotemporal Tucker decomposition approach for traffic imputation](https://doi.org/10.1016/j.sigpro.2025.110383) | Signal Processing | 2025 | $\mathcal{R}_{\text{Lap}}$ | [GitHub](https://github.com/GongWenwuu/STRTD) |
-| [Robust Tensor Ring Decomposition for Urban Traffic Data Imputation](https://doi.org/10.1109/TITS.2025.3555449) | IEEE TITS | 2025 | $\mathcal{R}_{\text{Lap}}$ |
-| [A Fused CP Factorization Method for Incomplete Tensors](https://doi.org/10.1109/TNNLS.2018.2851612) | IEEE TNNLS | 2018 | $\mathcal{R}_{\text{var}}$ |
-| [Low-Rank Tensor and Hybrid Smoothness Regularization-Based Approach for Traffic Data Imputation With Multimodal Missing](https://doi.org/10.1109/TITS.2024.3440011) | IEEE TITS | 2024 | $\mathcal{R}_{\text{var}}$ |
-| [Tensor Train Factorization with Spatio-temporal Smoothness for Streaming Low-rank Tensor Completion](https://doi.org/10.1007/s11464-021-0443-6) | Frontiers of Mathematics | 2024 | $\mathcal{R}_{\text{var}}$ |
-| [A Flexible Approach Based on Hybrid Global Low-Rankness and Smoothness Regularization With Nonlocal Structure for Traffic Data Imputation](https://doi.org/10.1109/TITS.2025.3541448) | IEEE TITS | 2025 | $\mathcal{R}_{\text{var}}$ |
-| [Generalized Least Squares Kernelized Tensor Factorization](https://arxiv.org/abs/2412.07041) | arXiv | 2024 | $\mathcal{R}_{\text{cov}}$ | [GitHub](https://github.com/MengyingLei/GLSKF) |
-| [Bayesian Kernelized Matrix Factorization for Spatiotemporal Traffic Data Imputation and Kriging](https://doi.org/10.1109/TITS.2022.3161792) | IEEE TITS | 2022 | $\mathcal{P}_{\text{cov}}$ | [GitHub](https://github.com/MengyingLei/stBKLM) |
-| [Bayesian Complementary Kernelized Learning for Multidimensional Spatiotemporal Data](https://arxiv.org/abs/2208.09978) | arXiv | 2022 | $\mathcal{P}_{\text{cov}}$ | [GitHub](https://github.com/MengyingLei/stBKLM) |
-| [Scalable Spatiotemporally Varying Coefficient Modeling with Bayesian Kernelized Tensor Regression](https://doi.org/10.1214/24-BA1428) | Bayesian Analysis | 2024 | $\mathcal{P}_{\text{cov}}$ | [GitHub](https://github.com/MengyingLei/stBKLM) [CRAN](https://cran.r-project.org/package=BKTR) |
+| [A Fused CP Factorization Method for Incomplete Tensors](https://doi.org/10.1109/TNNLS.2018.2851612) | IEEE TNNLS | 2018 | 𝓡<sub>Lap</sub> |
+| [Revealing heterogeneous spatiotemporal traffic flow patterns of urban road network via tensor decomposition-based clustering approach](https://doi.org/10.1016/j.physa.2019.03.053) | Physica A: Statistical Mechanics and its Applications | 2019 | 𝓡<sub>Lap</sub> | |
+| [Urban road traffic condition forecasting based on sparse ride-hailing service data](https://doi.org/10.1049/iet-its.2019.0338) | IET Intelligent Transport Systems | 2020 | 𝓡<sub>Lap</sub> |
+| [Toward urban traffic scenarios and more: a spatio-temporal analysis empowered low-rank tensor completion method for data imputation](https://doi.org/10.1080/13658816.2023.2234434) | International Journal of Geographical Information Science | 2023 | 𝓡<sub>Lap</sub> | [Code](https://figshare.com/articles/online_resource/ST-LRTC_Code_Data_zip/20289078) |
+| [Correlating sparse sensing for large-scale traffic speed estimation: A Laplacian-enhanced low-rank tensor kriging approach](https://doi.org/10.1016/j.trc.2023.104190) | Transportation Research Part C | 2023 | 𝓡<sub>Lap</sub> | [GitHub](https://github.com/tongnie/tensor4kriging) |
+| [Spatial–temporal regularized tensor decomposition method for traffic speed data imputation](https://doi.org/10.1007/s41060-023-00412-w) | International Journal of Data Science and Analytics | 2024 | 𝓡<sub>Lap</sub> |
+| [Low-Rank Tensor Completion With 3-D Spatiotemporal Transform for Traffic Data Imputation](https://doi.org/10.1109/TITS.2024.3422214) | IEEE TITS | 2024 | 𝓡<sub>Lap</sub> |
+| [Internet traffic tensor completion with tensor nuclear norm](https://doi.org/10.1007/s10589-023-00545-5) |  Computational Optimization and Applications | 2024 | 𝓡<sub>Lap</sub> |
+| [Laplacian Convolutional Representation for Traffic Time Series Imputation](https://doi.org/10.1109/TKDE.2024.3419698) | IEEE TKDE | 2024 | 𝓡<sub>Lap</sub> | [GitHub](https://github.com/xinychen/LCR) |
+| [TuckerAPP: A novel spatiotemporal Tucker decomposition approach for traffic imputation](https://doi.org/10.1016/j.sigpro.2025.110383) | Signal Processing | 2025 | 𝓡<sub>Lap</sub> | [GitHub](https://github.com/GongWenwuu/STRTD) |
+| [Robust Tensor Ring Decomposition for Urban Traffic Data Imputation](https://doi.org/10.1109/TITS.2025.3555449) | IEEE TITS | 2025 | 𝓡<sub>Lap</sub> |
+| [A Fused CP Factorization Method for Incomplete Tensors](https://doi.org/10.1109/TNNLS.2018.2851612) | IEEE TNNLS | 2018 | 𝓡<sub>var</sub> |
+| [Low-Rank Tensor and Hybrid Smoothness Regularization-Based Approach for Traffic Data Imputation With Multimodal Missing](https://doi.org/10.1109/TITS.2024.3440011) | IEEE TITS | 2024 | 𝓡<sub>var</sub> |
+| [Tensor Train Factorization with Spatio-temporal Smoothness for Streaming Low-rank Tensor Completion](https://doi.org/10.1007/s11464-021-0443-6) | Frontiers of Mathematics | 2024 | 𝓡<sub>var</sub> |
+| [A Flexible Approach Based on Hybrid Global Low-Rankness and Smoothness Regularization With Nonlocal Structure for Traffic Data Imputation](https://doi.org/10.1109/TITS.2025.3541448) | IEEE TITS | 2025 | 𝓡<sub>var</sub> |
+| [Generalized Least Squares Kernelized Tensor Factorization](https://arxiv.org/abs/2412.07041) | arXiv | 2024 | 𝓡<sub>cov</sub> | [GitHub](https://github.com/MengyingLei/GLSKF) |
+| [Bayesian Kernelized Matrix Factorization for Spatiotemporal Traffic Data Imputation and Kriging](https://doi.org/10.1109/TITS.2022.3161792) | IEEE TITS | 2022 | 𝓟<sub>cov</sub> | [GitHub](https://github.com/MengyingLei/stBKLM) |
+| [Bayesian Complementary Kernelized Learning for Multidimensional Spatiotemporal Data](https://arxiv.org/abs/2208.09978) | arXiv | 2022 | 𝓟<sub>cov</sub> | [GitHub](https://github.com/MengyingLei/stBKLM) |
+| [Scalable Spatiotemporally Varying Coefficient Modeling with Bayesian Kernelized Tensor Regression](https://doi.org/10.1214/24-BA1428) | Bayesian Analysis | 2024 | 𝓟<sub>cov</sub> | [GitHub](https://github.com/MengyingLei/stBKLM) [CRAN](https://cran.r-project.org/package=BKTR) |
 
 ### Temporal Constraints
 <p align="center">
@@ -291,47 +291,47 @@ If you find our survey useful for your research, please cite the following paper
 
 | Paper | Venue | Date | Constraint | Code |
 | -------- | :--------: | -------- | :--------: | :--------: |
-| [Urban road traffic condition forecasting based on sparse ride-hailing service data](https://doi.org/10.1049/iet-its.2019.0338) | IET Intelligent Transport Systems | 2020 | $\mathcal{R}_{\text{Lap}}$ |
-| [Spatial—Temporal Traffic Flow Data Restoration and Prediction Method Based on the Tensor Decomposition](https://doi.org/10.3390/app11199220) | Applied Sciences | 2021 | $\mathcal{R}_{\text{Lap}}$ |
-| [Robust Tensor Ring Decomposition for Urban Traffic Data Imputation](https://doi.org/10.1109/TITS.2025.3555449) | IEEE TITS | 2025 | $\mathcal{R}_{\text{Lap}}$ |
-| [A tensor train approach for internet traffic data completion](https://doi.org/10.1007/s10479-021-04147-4) |  Annals of Operations Research | 2024 | $\mathcal{R}_{\text{var}}$ |
-| [Spatial–temporal regularized tensor decomposition method for traffic speed data imputation](https://doi.org/10.1007/s41060-023-00412-w) | International Journal of Data Science and Analytics | 2024 | $\mathcal{R}_{\text{var}}$ |
-| [Low-Rank Tensor Completion With 3-D Spatiotemporal Transform for Traffic Data Imputation](https://doi.org/10.1109/TITS.2024.3422214) | IEEE TITS | 2024 | $\mathcal{R}_{\text{var}}$ |
-| [Low-Rank Tensor and Hybrid Smoothness Regularization-Based Approach for Traffic Data Imputation With Multimodal Missing](https://doi.org/10.1109/TITS.2024.3440011) | IEEE TITS | 2024 | $\mathcal{R}_{\text{var}}$ |
-| [Tensor Train Factorization with Spatio-temporal Smoothness for Streaming Low-rank Tensor Completion](https://doi.org/10.1007/s11464-021-0443-6) | Frontiers of Mathematics | 2024 | $\mathcal{R}_{\text{var}}$ |
-| [TuckerAPP: A novel spatiotemporal Tucker decomposition approach for traffic imputation](https://doi.org/10.1016/j.sigpro.2025.110383) | Signal Processing | 2025 | $\mathcal{R}_{\text{var}}$ | [GitHub](https://github.com/GongWenwuu/STRTD) |
-| [A Flexible Approach Based on Hybrid Global Low-Rankness and Smoothness Regularization With Nonlocal Structure for Traffic Data Imputation](https://doi.org/10.1109/TITS.2025.3541448) | IEEE TITS | 2025 | $\mathcal{R}_{\text{var}}$ |
-| [Dual-domain low-rank tensor completion for traffic data recovery](https://doi.org/10.1016/j.apm.2025.116404) | Applied Mathematical Modelling | 2025 | $\mathcal{R}_{\text{var}}$ |
-| [Short-Term Traffic Prediction Based on Dynamic Tensor Completion](https://doi.org/10.1109/TITS.2015.2513411) | IEEE TITS | 2016 | $\mathcal{R}_{\text{AR}}$ |
-| [Learning Spatiotemporal Latent Factors of Traffic via Regularized Tensor Factorization: Imputing Missing Values and Forecasting](https://doi.org/10.1109/TKDE.2019.2954868) | IEEE TKDE | 2019 | $\mathcal{R}_{\text{AR}}$ |
-| [Diagnosing Spatiotemporal Traffic Anomalies With Low-Rank Tensor Autoregression](https://doi.org/10.1109/TITS.2020.3044466) | IEEE TITS | 2021 | $\mathcal{R}_{\text{AR}}$ |
-| [Low-Rank Autoregressive Tensor Completion for Spatiotemporal Traffic Data Imputation](https://doi.org/10.1109/TITS.2021.3113608) | IEEE TITS | 2021 | $\mathcal{R}_{\text{AR}}$ | [GitHub](https://github.com/xinychen/transdim) |
-| [Discovering Dynamic Patterns From Spatiotemporal Data With Time-Varying Low-Rank Autoregression](https://doi.org/10.1109/TKDE.2023.3294440) | IEEE TKDE | 2023 | $\mathcal{R}_{\text{AR}}$ | [GitHub](https://github.com/xinychen/vars) |
-| [Bayesian Temporal Factorization for Multidimensional Time Series Prediction](https://doi.org/10.1109/TPAMI.2021.3066551) | IEEE TPAMI | 2021 | $\mathcal{P}_{\text{AR}}$ | [GitHub](https://github.com/xinychen/transdim) |
-| [Hankel-structured Tensor Robust PCA for Multivariate Traffic Time Series Anomaly Detection](https://arxiv.org/abs/2110.04352) | arXiv | 2021 | $\mathcal{R}_{\text{Hankel}}$ |
-| [Low-Rank Hankel Tensor Completion for Traffic Speed Estimation](https://doi.org/10.1109/TITS.2023.3247961) | IEEE TITS | 2023 | $\mathcal{R}_{\text{Hankel}}$ |
-| [Forecasting Urban Traffic States with Sparse Data Using Hankel Temporal Matrix Factorization](https://doi.org/10.1287/ijoc.2022.0197) | INFORMS Journal on Computing | 2024 | $\mathcal{R}_{\text{Hankel}}$ | [GitHub](https://github.com/INFORMSJoC/2022.0197) |
-| [Generalized Least Squares Kernelized Tensor Factorization](https://arxiv.org/abs/2412.07041) | arXiv | 2024 | $\mathcal{R}_{\text{cov}}$ | [GitHub](https://github.com/MengyingLei/GLSKF) |
-| [Bayesian Kernelized Matrix Factorization for Spatiotemporal Traffic Data Imputation and Kriging](https://doi.org/10.1109/TITS.2022.3161792) | IEEE TITS | 2022 | $\mathcal{P}_{\text{cov}}$ | [GitHub](https://github.com/MengyingLei/stBKLM) |
-| [Bayesian Complementary Kernelized Learning for Multidimensional Spatiotemporal Data](https://arxiv.org/abs/2208.09978) | arXiv | 2022 | $\mathcal{P}_{\text{cov}}$ | [GitHub](https://github.com/MengyingLei/stBKLM) |
-| [Scalable Spatiotemporally Varying Coefficient Modeling with Bayesian Kernelized Tensor Regression](https://doi.org/10.1214/24-BA1428) | Bayesian Analysis | 2024 | $\mathcal{P}_{\text{cov}}$ | [GitHub](https://github.com/MengyingLei/stBKLM) [CRAN](https://cran.r-project.org/package=BKTR) |
+| [Urban road traffic condition forecasting based on sparse ride-hailing service data](https://doi.org/10.1049/iet-its.2019.0338) | IET Intelligent Transport Systems | 2020 | 𝓡<sub>Lap</sub> |
+| [Spatial—Temporal Traffic Flow Data Restoration and Prediction Method Based on the Tensor Decomposition](https://doi.org/10.3390/app11199220) | Applied Sciences | 2021 | 𝓡<sub>Lap</sub> |
+| [Robust Tensor Ring Decomposition for Urban Traffic Data Imputation](https://doi.org/10.1109/TITS.2025.3555449) | IEEE TITS | 2025 | 𝓡<sub>Lap</sub> |
+| [A tensor train approach for internet traffic data completion](https://doi.org/10.1007/s10479-021-04147-4) |  Annals of Operations Research | 2024 | 𝓡<sub>var</sub> |
+| [Spatial–temporal regularized tensor decomposition method for traffic speed data imputation](https://doi.org/10.1007/s41060-023-00412-w) | International Journal of Data Science and Analytics | 2024 | 𝓡<sub>var</sub> |
+| [Low-Rank Tensor Completion With 3-D Spatiotemporal Transform for Traffic Data Imputation](https://doi.org/10.1109/TITS.2024.3422214) | IEEE TITS | 2024 | 𝓡<sub>var</sub> |
+| [Low-Rank Tensor and Hybrid Smoothness Regularization-Based Approach for Traffic Data Imputation With Multimodal Missing](https://doi.org/10.1109/TITS.2024.3440011) | IEEE TITS | 2024 | 𝓡<sub>var</sub> |
+| [Tensor Train Factorization with Spatio-temporal Smoothness for Streaming Low-rank Tensor Completion](https://doi.org/10.1007/s11464-021-0443-6) | Frontiers of Mathematics | 2024 | 𝓡<sub>var</sub> |
+| [TuckerAPP: A novel spatiotemporal Tucker decomposition approach for traffic imputation](https://doi.org/10.1016/j.sigpro.2025.110383) | Signal Processing | 2025 | 𝓡<sub>var</sub> | [GitHub](https://github.com/GongWenwuu/STRTD) |
+| [A Flexible Approach Based on Hybrid Global Low-Rankness and Smoothness Regularization With Nonlocal Structure for Traffic Data Imputation](https://doi.org/10.1109/TITS.2025.3541448) | IEEE TITS | 2025 | 𝓡<sub>var</sub> |
+| [Dual-domain low-rank tensor completion for traffic data recovery](https://doi.org/10.1016/j.apm.2025.116404) | Applied Mathematical Modelling | 2025 | 𝓡<sub>var</sub> |
+| [Short-Term Traffic Prediction Based on Dynamic Tensor Completion](https://doi.org/10.1109/TITS.2015.2513411) | IEEE TITS | 2016 | 𝓡<sub>AR</sub> |
+| [Learning Spatiotemporal Latent Factors of Traffic via Regularized Tensor Factorization: Imputing Missing Values and Forecasting](https://doi.org/10.1109/TKDE.2019.2954868) | IEEE TKDE | 2019 | 𝓡<sub>AR</sub> |
+| [Diagnosing Spatiotemporal Traffic Anomalies With Low-Rank Tensor Autoregression](https://doi.org/10.1109/TITS.2020.3044466) | IEEE TITS | 2021 | 𝓡<sub>AR</sub> |
+| [Low-Rank Autoregressive Tensor Completion for Spatiotemporal Traffic Data Imputation](https://doi.org/10.1109/TITS.2021.3113608) | IEEE TITS | 2021 | 𝓡<sub>AR</sub> | [GitHub](https://github.com/xinychen/transdim) |
+| [Discovering Dynamic Patterns From Spatiotemporal Data With Time-Varying Low-Rank Autoregression](https://doi.org/10.1109/TKDE.2023.3294440) | IEEE TKDE | 2023 | 𝓡<sub>AR</sub> | [GitHub](https://github.com/xinychen/vars) |
+| [Bayesian Temporal Factorization for Multidimensional Time Series Prediction](https://doi.org/10.1109/TPAMI.2021.3066551) | IEEE TPAMI | 2021 | 𝓟<sub>AR</sub> | [GitHub](https://github.com/xinychen/transdim) |
+| [Hankel-structured Tensor Robust PCA for Multivariate Traffic Time Series Anomaly Detection](https://arxiv.org/abs/2110.04352) | arXiv | 2021 | 𝓡<sub>Hankel</sub> |
+| [Low-Rank Hankel Tensor Completion for Traffic Speed Estimation](https://doi.org/10.1109/TITS.2023.3247961) | IEEE TITS | 2023 | 𝓡<sub>Hankel</sub> |
+| [Forecasting Urban Traffic States with Sparse Data Using Hankel Temporal Matrix Factorization](https://doi.org/10.1287/ijoc.2022.0197) | INFORMS Journal on Computing | 2024 | 𝓡<sub>Hankel</sub> | [GitHub](https://github.com/INFORMSJoC/2022.0197) |
+| [Generalized Least Squares Kernelized Tensor Factorization](https://arxiv.org/abs/2412.07041) | arXiv | 2024 | 𝓡<sub>cov</sub> | [GitHub](https://github.com/MengyingLei/GLSKF) |
+| [Bayesian Kernelized Matrix Factorization for Spatiotemporal Traffic Data Imputation and Kriging](https://doi.org/10.1109/TITS.2022.3161792) | IEEE TITS | 2022 | 𝓟<sub>cov</sub> | [GitHub](https://github.com/MengyingLei/stBKLM) |
+| [Bayesian Complementary Kernelized Learning for Multidimensional Spatiotemporal Data](https://arxiv.org/abs/2208.09978) | arXiv | 2022 | 𝓟<sub>cov</sub> | [GitHub](https://github.com/MengyingLei/stBKLM) |
+| [Scalable Spatiotemporally Varying Coefficient Modeling with Bayesian Kernelized Tensor Regression](https://doi.org/10.1214/24-BA1428) | Bayesian Analysis | 2024 | 𝓟<sub>cov</sub> | [GitHub](https://github.com/MengyingLei/stBKLM) [CRAN](https://cran.r-project.org/package=BKTR) |
 
 ## Datasets
 | Type | Dataset | Size | Link |
 | :--------: | :--------: | -------- | -------- |
-| Traffic speed | Gaungzhou urban | `location` 214 $\times$ `day` 61 $\times$ `time of day` 144 | [Link](https://doi.org/10.5281/zenodo.1205229) |
-| Traffic speed | Seattle freeway | `location` 323 $\times$ `time of day` 288 $\times$ `day` 30 |
-| Traffic speed | PeMS | `location` 11160 $\times$ `time of day` 288 $\times$ `day` 59 |
-| Traffic speed | London | `location` 35912 $\times$ `time of day` 24 $\times$ `day` 30 | [Link]( https://movement.uber.com) |
-| Traffic speed | Shenzhen | `location` 2545 $\times$ `time of day` 288 $\times$ `day` 7 |
-| Traffic flow/volume | PeMS | `location` 11160 $\times$ `time of day` 288 $\times$ `day` 84 |
-| Traffic flow/volume | Portland highway | `location` 1156 $\times$ `time of day` 96 $\times$ `day` 90 | [Link]( https://portal.its.pdx.edu/home) |
-| Traffic flow/volume | Hangzhou metro | `location` 80 $\times$ `time of day` 108 $\times$ `day` 25 | [Link]( https://tianchi.aliyun.com/competition/entrance/231708/information) |
-| Traffic flow/volume | Guangzhou metro | `station` 148 $\times$ `day` 14 $\times$ `time of day` 96 | |
-| OD | Abilene | `OD pair` 144 $\times$ `time of day` 288 $\times$ `day` 168 | [Link]( https://www.cs.bu.edu/fac/crovella/abilene-distro.tar) |
-| OD | GÉANT | `OD pair` 529 $\times$ `time of day` 96 $\times$ `day` 112 | [Link](https://totem.info.ucl.ac.be/dataset.html) |
-| OD | Xuhui, Shanghai | `OD pair` 289 $\times$ `time of day` 64 $\times$ `day` 14 |
-| Occupancy | Birmingham | `location` 30 $\times$ `time of day` 18 $\times$ `day` 77 | [Link](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham) |
-| Demand (Trip record) | NYC, taxi | `zone` 69 $\times$ `zone` 69 $\times$ `time slot` 3653 | [Link]( https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) |
-| Demand (Trip record) | Montreal, BIXI | `station` 587 $\times$ `day` 196 $\times$ `covariate` 19 | [Link]( https://bixi.com) |
-| Trajectory | Chengdu | `time interval` 588 $\times$ `link` 114 |
+| Traffic speed | Gaungzhou urban | `location` 214 × `day` 61 × `time of day` 144 | [Link](https://doi.org/10.5281/zenodo.1205229) |
+| Traffic speed | Seattle freeway | `location` 323 × `time of day` 288 × `day` 30 |
+| Traffic speed | PeMS | `location` 11160 × `time of day` 288 × `day` 59 |
+| Traffic speed | London | `location` 35912 × `time of day` 24 × `day` 30 | [Link]( https://movement.uber.com) |
+| Traffic speed | Shenzhen | `location` 2545 × `time of day` 288 × `day` 7 |
+| Traffic flow/volume | PeMS | `location` 11160 × `time of day` 288 × `day` 84 |
+| Traffic flow/volume | Portland highway | `location` 1156 × `time of day` 96 × `day` 90 | [Link]( https://portal.its.pdx.edu/home) |
+| Traffic flow/volume | Hangzhou metro | `location` 80 × `time of day` 108 × `day` 25 | [Link]( https://tianchi.aliyun.com/competition/entrance/231708/information) |
+| Traffic flow/volume | Guangzhou metro | `station` 148 × `day` 14 × `time of day` 96 | |
+| OD | Abilene | `OD pair` 144 × `time of day` 288 × `day` 168 | [Link]( https://www.cs.bu.edu/fac/crovella/abilene-distro.tar) |
+| OD | GÉANT | `OD pair` 529 × `time of day` 96 × `day` 112 | [Link](https://totem.info.ucl.ac.be/dataset.html) |
+| OD | Xuhui, Shanghai | `OD pair` 289 × `time of day` 64 × `day` 14 |
+| Occupancy | Birmingham | `location` 30 × `time of day` 18 × `day` 77 | [Link](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham) |
+| Demand (Trip record) | NYC, taxi | `zone` 69 × `zone` 69 × `time slot` 3653 | [Link]( https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) |
+| Demand (Trip record) | Montreal, BIXI | `station` 587 × `day` 196 × `covariate` 19 | [Link]( https://bixi.com) |
+| Trajectory | Chengdu | `time interval` 588 × `link` 114 |
