@@ -33,12 +33,19 @@ The sections below broadly mirror the structure of the survey:
 3. **LRTL for transportation tasks**
    - Imputation, extrapolation, prediction, and others
 4. **Spatiotemporal constraints**
-   - Spatial structure (graphs/Laplacians, variation)  
-   - Temporal structure (AR, Hankel, kernel/GP priors)
+   - Spatial structure (graph/Laplacian, variation, covariance/GP)  
+   - Temporal structure (AR, Hankel, covariance/GP)
 5. **Datasets**
    - Traffic and mobility benchmarks
 
-Each subsection in 1-4 consists of a table with: paper title → venue → year → (optional) code link.
+Items 1–4 organize papers in tables. In addition to **venue**, **year**, and **code** links, columns may include **technique** and **constraint** information, depending on the subsection.
+
+**Notation used in tables**
+- **Technique** examples: CP, Tucker, NN (nuclear norm), TNN (truncated nuclear norm), TT (tensor train), TD (triple decomposition), TR (tensor ring), DPD (dimension preserved decomposition), CP-B (Bayesian CP), TR-B (Bayesian TR).
+- **Constraint** tags:  
+  `_{Lap}` graph/Laplacian regularization; `_{var}` smoothness/variation regularization;  
+  `_{AR}` autoregressive dynamics; `_{Hankel}` Hankel structure/embedding;  
+  `_{cov}` kernel or covariance (e.g., GP-style) modeling.
 
 ## Citation
 If you find this survey useful for your research, please consider citing:
@@ -77,7 +84,7 @@ If you find this survey useful for your research, please consider citing:
 
 ### Tensor Decomposition
 #### CP
-| Paper | Venue | Date | Code |
+| Paper | Venue | Year | Code |
 | -------- | :--------: | -------- | :--------: |
 | [Accurate Recovery of Internet Traffic Data Under Variable Rate Measurements](https://doi.org/10.1109/TNET.2018.2819504) | IEEE/ACM Transactions on Networking | 2018 | |
 | [A Fused CP Factorization Method for Incomplete Tensors](https://doi.org/10.1109/TNNLS.2018.2851612) | IEEE TNNLS | 2018 | |
@@ -92,7 +99,7 @@ If you find this survey useful for your research, please consider citing:
 | [A Data Fusion CANDECOMP-PARAFAC Method for Interval-wise Missing Network Volume Imputation](https://doi.org/10.1109/TITS.2023.3289193) | IEEE TITS | 2023 | |
 | [Generalized Least Squares Kernelized Tensor Factorization](https://arxiv.org/abs/2412.07041) | arXiv | 2024 | [GitHub](https://github.com/MengyingLei/GLSKF) |
 #### Tucker
-| Paper | Venue | Date | Code |
+| Paper | Venue | Year | Code |
 | -------- | :--------: | -------- | :--------: |
 | [A tensor-based method for missing traffic data completion](https://doi.org/10.1016/j.trc.2012.12.007) | Transportation Research Part C | 2013 | |
 | [Spatial-temporal traffic speed patterns discovery and incomplete data recovery via SVD-combined tensor decomposition](https://doi.org/10.1016/j.trc.2017.10.023) | Transportation Research Part C | 2018 | |
@@ -103,7 +110,7 @@ If you find this survey useful for your research, please consider citing:
 | [Spatial–temporal regularized tensor decomposition method for traffic speed data imputation](https://doi.org/10.1007/s41060-023-00412-w) | International Journal of Data Science and Analytics | 2024 | |
 | [TuckerAPP: A novel spatiotemporal Tucker decomposition approach for traffic imputation](https://doi.org/10.1016/j.sigpro.2025.110383) | Signal Processing | 2025 | [GitHub](https://github.com/GongWenwuu/STRTD) |
 #### Others
-| Paper | Venue | Date | Code |
+| Paper | Venue | Year | Code |
 | -------- | :--------: | -------- | :--------: |
 | [Short-Term Traffic Prediction Based on Dynamic Tensor Completion](https://doi.org/10.1109/TITS.2015.2513411) | IEEE TITS | 2016 | |
 | [Graph Spectral Regularized Tensor Completion for Traffic Data Imputation](https://doi.org/10.1109/TITS.2021.3098637) | IEEE TITS | 2021 | |
@@ -118,7 +125,7 @@ If you find this survey useful for your research, please consider citing:
 
 ### Rank-Surrogate Regularization
 #### Nuclear Norm (NN)
-| Paper | Venue | Date | Code |
+| Paper | Venue | Year | Code |
 | -------- | :--------: | -------- | :--------: |
 | [Tensor based missing traffic data completion with spatial–temporal correlation](https://doi.org/10.1016/j.physa.2015.09.105) | Physica A: Statistical Mechanics and its Applications | 2016 | |
 | [Scalable low-rank tensor learning for spatiotemporal traffic data imputation](https://doi.org/10.1016/j.trc.2021.103226) | Transportation Research Part C | 2021 | [GitHub](https://github.com/xinychen/transdim) |
@@ -133,7 +140,7 @@ If you find this survey useful for your research, please consider citing:
 | [A Flexible Approach Based on Hybrid Global Low-Rankness and Smoothness Regularization With Nonlocal Structure for Traffic Data Imputation](https://doi.org/10.1109/TITS.2025.3541448) | IEEE TITS | 2025 | |
 | [Dual-domain low-rank tensor completion for traffic data recovery](https://doi.org/10.1016/j.apm.2025.116404) | Applied Mathematical Modelling | 2025 | |
 #### Truncated Nuclear Norm (TNN)
-| Paper | Venue | Date | Code |
+| Paper | Venue | Year | Code |
 | -------- | :--------: | -------- | :--------: |
 | [A nonconvex low-rank tensor completion model for spatiotemporal traffic data imputation](https://doi.org/10.1016/j.trc.2020.102673) | Transportation Research Part C | 2020 | [GitHub](https://github.com/xinychen/transdim) |
 | [Spatio-Temporal Constraint-Based Low Rank Matrix Completion Approaches for Road Traffic Networks](https://doi.org/10.1109/TITS.2021.3124613) | IEEE TITS | 2021 | |
@@ -143,7 +150,7 @@ If you find this survey useful for your research, please consider citing:
 | [Nonnegative low-rank tensor completion method for spatiotemporal traffic data](https://doi.org/10.1007/s11042-023-15511-w) | Multimedia Tools and Applications | 2024 | |
 | [Convolutional Low-Rank Tensor Representation for Structural Missing Traffic Data Imputation](https://doi.org/10.1109/TITS.2024.3430039) | IEEE TITS | 2024 | |
 #### Schatten-p
-| Paper | Venue | Date | Code |
+| Paper | Venue | Year | Code |
 | -------- | :--------: | -------- | :--------: |
 | [Urban network-wide traffic speed estimation with massive ride-sourcing GPS traces](https://doi.org/10.1016/j.trc.2020.01.023) | Transportation Research Part C | 2020 | |
 | [Truncated tensor Schatten p-norm based approach for spatiotemporal traffic data imputation with complicated missing patterns](https://doi.org/10.1016/j.trc.2022.103737) | Transportation Research Part C | 2022 | [GitHub](https://github.com/tongnie/tensorlib) |
@@ -152,7 +159,7 @@ If you find this survey useful for your research, please consider citing:
 | [Correlating sparse sensing for large-scale traffic speed estimation: A Laplacian-enhanced low-rank tensor kriging approach](https://doi.org/10.1016/j.trc.2023.104190) | Transportation Research Part C | 2023 | [GitHub](https://github.com/tongnie/tensor4kriging) |
 | [A Flexible and Robust Tensor Completion Approach for Traffic Data Recovery With Low-Rankness](https://doi.org/10.1109/TITS.2023.3319033) | IEEE TITS | 2023 | [GitHub](https://github.com/LiyangHu97/RSCPN) |
 #### Others
-| Paper | Venue | Date | Code |
+| Paper | Venue | Year | Code |
 | -------- | :--------: | -------- | :--------: |
 | [Accurate Recovery of Internet Traffic Data: A Sequential Tensor Completion Approach](https://doi.org/10.1109/TNET.2018.2797094) | IEEE/ACM Transactions on Networking | 2018 | |
 | [HRST-LR: A Hessian Regularization Spatio-Temporal Low Rank Algorithm for Traffic Data Imputation](https://doi.org/10.1109/TITS.2023.3279321) | IEEE TITS | 2023 | |
@@ -171,7 +178,7 @@ If you find this survey useful for your research, please consider citing:
 </p>
 
 #### CP-B
-| Paper | Venue | Date | Code |
+| Paper | Venue | Year | Code |
 | -------- | :--------: | -------- | :--------: |
 | [Missing traffic data imputation and pattern discovery with a Bayesian augmented tensor factorization model](https://doi.org/10.1016/j.trc.2019.03.003) | Transportation Research Part C | 2019 | [GitHub](https://github.com/xinychen/transdim) |
 | [A Bayesian tensor decomposition approach for spatiotemporal traffic data imputation](https://doi.org/10.1016/j.trc.2018.11.003) | Transportation Research Part C | 2019 | [GitHub](https://github.com/xinychen/transdim) |
@@ -188,7 +195,7 @@ If you find this survey useful for your research, please consider citing:
 | [Bayesian Robust Tensor Decomposition Based on MCMC Algorithm for Traffic Data Completion](https://doi.org/10.1049/sil2/4762771) | IET Signal Processing | 2025 | |
 | [Collaborative Bayesian Tensor Factorization-Based Reliable Traffic Speed Data Prediction in T-CPS](https://doi.org/10.1109/TITS.2025.3564318) | IEEE TITS | 2025 | |
 #### Others
-| Paper | Venue | Date | Code |
+| Paper | Venue | Year | Code |
 | -------- | :--------: | -------- | :--------: |
 | [A BPCA based missing value imputing method for traffic flow volume data](https://doi.org/10.1109/IVS.2008.4621153) | IEEE Symposium on Intelligent Vehicle | 2008 | |
 | [Traffic Estimation and Prediction via Online Variational Bayesian Subspace Filtering](https://doi.org/10.1109/TITS.2020.3048959) | IEEE TITS | 2021 | |
@@ -206,7 +213,7 @@ If you find this survey useful for your research, please consider citing:
 <img src="./image/imputation.png" style="width: 100%">
 </p>
 
-| Paper | Venue | Date | Technique | Code |
+| Paper | Venue | Year | Technique | Code |
 | -------- | :--------: | -------- | :--------: | :--------: |
 | [A tensor-based method for missing traffic data completion](https://doi.org/10.1016/j.trc.2012.12.007) | Transportation Research Part C | 2013 | Tucker | | 
 | [Tensor based missing traffic data completion with spatial–temporal correlation](https://doi.org/10.1016/j.physa.2015.09.105) | Physica A: Statistical Mechanics and its Applications | 2016 | NN | |
@@ -251,7 +258,7 @@ If you find this survey useful for your research, please consider citing:
 <img src="./image/extrapolation.png" style="width: 100%">
 </p>
 
-| Paper | Venue | Date | Technique | Code |
+| Paper | Venue | Year | Technique | Code |
 | -------- | :--------: | -------- | :--------: | :--------: |
 | [Low-Rank Autoregressive Tensor Completion for Spatiotemporal Traffic Data Imputation](https://doi.org/10.1109/TITS.2021.3113608) | IEEE TITS | 2021 | TNN | [GitHub](https://github.com/xinychen/transdim) |
 | [Bayesian Kernelized Matrix Factorization for Spatiotemporal Traffic Data Imputation and Kriging](https://doi.org/10.1109/TITS.2022.3161792) | IEEE TITS | 2022 | CP-B | [GitHub](https://github.com/MengyingLei/stBKLM) |
@@ -262,7 +269,7 @@ If you find this survey useful for your research, please consider citing:
 <img src="./image/prediction.png" style="width: 100%">
 </p>
 
-| Paper | Venue | Date | Technique | Code |
+| Paper | Venue | Year | Technique | Code |
 | -------- | :--------: | -------- | :--------: | :--------: |
 | [Short-Term Traffic Prediction Based on Dynamic Tensor Completion](https://doi.org/10.1109/TITS.2015.2513411) | IEEE TITS | 2016 | TF | |
 | [Learning Spatiotemporal Latent Factors of Traffic via Regularized Tensor Factorization: Imputing Missing Values and Forecasting](https://doi.org/10.1109/TKDE.2019.2954868) | IEEE TKDE | 2019 | CP | |
@@ -277,20 +284,20 @@ If you find this survey useful for your research, please consider citing:
 
 ### Other Tasks
 #### Pattern Discovery
-| Paper | Venue | Date | Technique | Code |
+| Paper | Venue | Year | Technique | Code |
 | -------- | :--------: | -------- | :--------: | :--------: |
 | [Revealing heterogeneous spatiotemporal traffic flow patterns of urban road network via tensor decomposition-based clustering approach](https://doi.org/10.1016/j.physa.2019.03.053) | Physica A: Statistical Mechanics and its Applications | 2019 | CP | |
 | [Simultaneous Incomplete Traffic Data Imputation and Similarity Pattern Discovery with Bayesian Nonparametric Tensor Decomposition](https://doi.org/10.1155/2020/8810753) | Journal of advanced transportation | 2020 | CP-B | |
 | [Nonrecurrent traffic congestion detection with a coupled scalable Bayesian robust tensor factorization model](https://doi.org/10.1016/j.neucom.2020.10.091) | Neurocomputing | 2021 | CP-B | |
 | [Discovering Dynamic Patterns From Spatiotemporal Data With Time-Varying Low-Rank Autoregression](https://doi.org/10.1109/TKDE.2023.3294440) | IEEE TKDE | 2023 | Tucker | [GitHub](https://github.com/xinychen/vars) |
 #### Anomaly Detection
-| Paper | Venue | Date | Technique | Code |
+| Paper | Venue | Year | Technique | Code |
 | -------- | :--------: | -------- | :--------: | :--------: |
 | [Diagnosing Spatiotemporal Traffic Anomalies With Low-Rank Tensor Autoregression](https://doi.org/10.1109/TITS.2020.3044466) | IEEE TITS | 2021 | CP | |
 | [Hankel-structured Tensor Robust PCA for Multivariate Traffic Time Series Anomaly Detection](https://arxiv.org/abs/2110.04352) | arXiv | 2021 | NN | |
 | [GLOSS: Tensor-based anomaly detection in spatiotemporal urban traffic data](https://doi.org/10.1016/j.sigpro.2021.108370) | Signal Processing | 2022 | NN | |
 #### Regression
-| Paper | Venue | Date | Technique | Code |
+| Paper | Venue | Year | Technique | Code |
 | -------- | :--------: | -------- | :--------: | :--------: |
 | [Scalable Spatiotemporally Varying Coefficient Modeling with Bayesian Kernelized Tensor Regression](https://doi.org/10.1214/24-BA1428) | Bayesian Analysis | 2024 | CP-B | [GitHub](https://github.com/MengyingLei/stBKLM) [CRAN](https://cran.r-project.org/package=BKTR) |
 
@@ -300,7 +307,7 @@ If you find this survey useful for your research, please consider citing:
 <img src="./image/spatial_constraint.png" style="width: 100%">
 </p>
 
-| Paper | Venue | Date | Constraint | Code |
+| Paper | Venue | Year | Constraint | Code |
 | -------- | :--------: | -------- | :--------: | :--------: |
 | [A Fused CP Factorization Method for Incomplete Tensors](https://doi.org/10.1109/TNNLS.2018.2851612) | IEEE TNNLS | 2018 | 𝓡<sub>Lap</sub> |
 | [Revealing heterogeneous spatiotemporal traffic flow patterns of urban road network via tensor decomposition-based clustering approach](https://doi.org/10.1016/j.physa.2019.03.053) | Physica A: Statistical Mechanics and its Applications | 2019 | 𝓡<sub>Lap</sub> | |
@@ -327,7 +334,7 @@ If you find this survey useful for your research, please consider citing:
 <img src="./image/temporal_constraint.png" style="width: 100%">
 </p>
 
-| Paper | Venue | Date | Constraint | Code |
+| Paper | Venue | Year | Constraint | Code |
 | -------- | :--------: | -------- | :--------: | :--------: |
 | [Urban road traffic condition forecasting based on sparse ride-hailing service data](https://doi.org/10.1049/iet-its.2019.0338) | IET Intelligent Transport Systems | 2020 | 𝓡<sub>Lap</sub> |
 | [Spatial—Temporal Traffic Flow Data Restoration and Prediction Method Based on the Tensor Decomposition](https://doi.org/10.3390/app11199220) | Applied Sciences | 2021 | 𝓡<sub>Lap</sub> |
@@ -357,7 +364,7 @@ If you find this survey useful for your research, please consider citing:
 ## Datasets
 | Type | Dataset | Size | Link |
 | :--------: | :--------: | -------- | -------- |
-| Traffic speed | Gaungzhou urban | `location` 214 × `day` 61 × `time of day` 144 | [Link](https://doi.org/10.5281/zenodo.1205229) |
+| Traffic speed | Guangzhou urban | `location` 214 × `day` 61 × `time of day` 144 | [Link](https://doi.org/10.5281/zenodo.1205229) |
 | Traffic speed | Seattle freeway | `location` 323 × `time of day` 288 × `day` 30 |
 | Traffic speed | PeMS | `location` 11160 × `time of day` 288 × `day` 59 |
 | Traffic speed | London | `location` 35912 × `time of day` 24 × `day` 30 | [Link]( https://movement.uber.com) |
