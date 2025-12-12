@@ -1,6 +1,6 @@
 # LRTL4T-Survey
 
-Papers and resources about LRTL (Low-Rank Tensor Learning) for spatiotemporal Transportation (traffic state and mobility) data. 
+Papers and resources on LRTL (Low-Rank Tensor Learning) for spatiotemporal Transportation (traffic state and mobility) data. 
 
 <p align="center">
 <img src="./image/framework.png" style="width: 100%">
