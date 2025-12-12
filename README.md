@@ -6,20 +6,51 @@ Papers and resources about LRTL (Low-Rank Tensor Learning) for spatiotemporal Tr
 <img src="./image/framework.png" style="width: 100%">
 </p>
 
-The organization follows our survey: [Low-Rank Tensor Learning for Spatiotemporal Traffic and Mobility Data: A Survey [PDF]](LRTL4T_Survey.pdf). The survey has been accepted by *Artificial Intelligence for Transportation* (AIT) [[paper](https://doi.org/10.1016/j.ait.2025.100035)].
+## About
+This repository is a companion to our survey:
+> Lei, M. and Sun, L. (2025).  
+> Low-rank tensor learning for spatiotemporal traffic and mobility data: A survey.
+> *Artificial Intelligence for Transportation*, 3, 100035.  
+> DOI: 10.1016/j.ait.2025.100035
 
-If you have any suggestions, notice any mistakes, or come across related work not included, please feel free to contact us at <mengying.lei@mcgill.ca> / <lijun.sun@mcgill.ca> or open an issue/pull request in this repository. We appreciate your feedback and welcome contributions from everyone.
+- :page_facing_up: Survey PDF: [`LRTL4T_Survey.pdf`](LRTL4T_Survey.pdf)  
+- :globe_with_meridians: Publisher version: Open access on the [journal page](https://doi.org/10.1016/j.ait.2025.100035)
 
-If you find our survey useful for your research, please consider citing:
+The goals of this repository are to:
+- organize existing LRTL methods for traffic data in a consistent taxonomy;
+- provide quick links to papers, preprints, and code;
+- highlight relevant datasets that have been used in the literature.
+
+If you work on related topics, feel free to suggest additional references or corrections.
+
+## How the list is organized
+The sections below broadly mirror the structure of the survey:
+1. **Deterministic LRTL**
+   - Tensor decomposition models (CP, Tucker, and variants)
+   - Rank-surrogate regularization (nuclear norms, truncated nuclear norms, Schatten-p, etc.)
+2. **Bayesian probabilistic LRTL**
+   - Bayesian probablistic factorization models with uncertainty quantification
+3. **LRTL for transportation tasks**
+   - Imputation, extrapolation, prediction, and others
+4. **Spatiotemporal constraints**
+   - Spatial structure (graphs/Laplacians, variation)  
+   - Temporal structure (AR, Hankel, kernel/GP priors)
+5. **Datasets**
+   - Traffic and mobility benchmarks
+
+Each subsection in 1-4 consists of a table with: paper title → venue → year → (optional) code link.
+
+## Citation
+If you find this survey useful for your research, please consider citing:
 ```bibtex
 @article{lei2025lrtl4t,
-  title={Low-rank tensor learning for spatiotemporal traffic and mobility data: A survey},
-  author={Lei, Mengying and Sun, Lijun},
-  journal={Artificial Intelligence for Transportation},
-  volume={3},
-  pages={100035},
-  year={2025},
-  publisher={Elsevier}
+  title     = {Low-rank tensor learning for spatiotemporal traffic and mobility data: A survey},
+  author    = {Lei, Mengying and Sun, Lijun},
+  journal   = {Artificial Intelligence for Transportation},
+  volume    = {3},
+  pages     = {100035},
+  year      = {2025},
+  publisher = {Elsevier}
 }
 ```
 
