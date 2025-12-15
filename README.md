@@ -43,7 +43,8 @@ Items 1–4 organize papers in tables. In addition to **venue**, **year**, and *
 **Notation used in tables**
 - **Technique** examples: CP, Tucker, NN (nuclear norm), TNN (truncated nuclear norm), TT (tensor train), TD (triple decomposition), TR (tensor ring), DPD (dimension preserved decomposition), CP-B (Bayesian CP), TR-B (Bayesian TR).
 - **Constraint** tags:  
-  `_{Lap}` graph/Laplacian regularization; `_{var}` smoothness/variation regularization;  
+  `𝓡_` deterministic regularization; `𝓟_` Bayesian probabilistic prior;  
+  `_{Lap}` graph/Laplacian constraint; `_{var}` smoothness/variation constraint;  
   `_{AR}` autoregressive dynamics; `_{Hankel}` Hankel structure/embedding;  
   `_{cov}` kernel or covariance (e.g., GP-style) modeling.
 
