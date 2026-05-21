@@ -47,7 +47,7 @@ Items 1–4 organize papers in tables. In addition to **venue**, **year**, and *
   `_{AR}` autoregressive dynamics; `_{Hankel}` Hankel structure/embedding;  
   `_{cov}` kernel or covariance (e.g., GP-style) modeling.
 
-## Citation
+## Cite Us
 If you find this survey useful for your research, please consider citing:
 ```bibtex
 @article{lei2025lrtl4t,
