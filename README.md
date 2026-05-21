@@ -7,19 +7,18 @@ Papers and resources on LRTL (Low-Rank Tensor Learning) for spatiotemporal Trans
 </p>
 
 ## About
-This repository is a companion to our survey:
-> Lei, M. and Sun, L. (2025).  
+This repository is a companion to our [survey]((https://doi.org/10.1016/j.ait.2025.100035)) (PDF version: [`LRTL4T_Survey.pdf`](LRTL4T_Survey.pdf)):
+> Lei, Mengying and Sun, Lijun (2025).  
 > Low-rank tensor learning for spatiotemporal traffic and mobility data: A survey.
-> *Artificial Intelligence for Transportation*, 3, 100035.  
-> DOI: 10.1016/j.ait.2025.100035
+> *Artificial Intelligence for Transportation*, 3, 100035.
 
-- :page_facing_up: Survey PDF: [`LRTL4T_Survey.pdf`](LRTL4T_Survey.pdf)  
-- :globe_with_meridians: Publisher version: Open access on the [journal page](https://doi.org/10.1016/j.ait.2025.100035)
+<!-- - :page_facing_up: Survey PDF: [`LRTL4T_Survey.pdf`](LRTL4T_Survey.pdf)  
+- :globe_with_meridians: Publisher version: Open access on the [journal page](https://doi.org/10.1016/j.ait.2025.100035) -->
 
 The goals of this repository are to:
 - organize existing LRTL methods for traffic data in a consistent taxonomy;
-- provide quick links to papers, preprints, and code;
-- highlight relevant datasets that have been used in the literature.
+- provide links to papers, preprints, code, and datasets.
+<!-- - highlight relevant datasets that have been used in the literature. -->
 
 If you work on related topics, feel free to suggest additional references or corrections.
 
@@ -130,7 +129,6 @@ If you find this survey useful for your research, please consider citing:
 | -------- | :--------: | -------- | :--------: |
 | [Tensor based missing traffic data completion with spatial–temporal correlation](https://doi.org/10.1016/j.physa.2015.09.105) | Physica A: Statistical Mechanics and its Applications | 2016 | |
 | [Scalable low-rank tensor learning for spatiotemporal traffic data imputation](https://doi.org/10.1016/j.trc.2021.103226) | Transportation Research Part C | 2021 | [GitHub](https://github.com/xinychen/transdim) |
-| [Hankel-structured Tensor Robust PCA for Multivariate Traffic Time Series Anomaly Detection](https://arxiv.org/abs/2110.04352) | arXiv | 2021 | |
 | [GLOSS: Tensor-based anomaly detection in spatiotemporal urban traffic data](https://doi.org/10.1016/j.sigpro.2021.108370) | Signal Processing | 2022 | |
 | [A Novel Spatiotemporal Data Low-Rank Imputation Approach for Traffic Sensor Network](https://doi.org/10.1109/JIOT.2022.3172447) | IEEE Internet of Things Journal | 2022 | |
 | [A Learnable Group-Tube Transform Induced Tensor Nuclear Norm and Its Application for Tensor Completion](https://doi.org/10.1137/22M1531907) | SIAM Journal on Imaging Sciences | 2023 | |
@@ -170,7 +168,7 @@ If you find this survey useful for your research, please consider citing:
 | [Tensor Train Factorization with Spatio-temporal Smoothness for Streaming Low-rank Tensor Completion](https://doi.org/10.1007/s11464-021-0443-6) | Frontiers of Mathematics | 2024 | |
 | [Vehicle State Recovery: A Tailored Laplace Function-Based Tensor Completion Approach](https://doi.org/10.1109/TIV.2024.3471810) | IEEE Transactions on Intelligent Vehicles | 2024 | |
 | [Missing Traffic Data Imputation based on Tensor Completion and Graph Network Fusion](https://doi.org/10.1177/03611981251330889) | Transportation Research Record | 2025 | |
-| [Robust Tensor Completion via Gradient Tensor Nuclear L1-L2 Norm for Traffic Data Recovery](https://arxiv.org/abs/2506.22732) | arXiv | 2025 | [GitHub](https://github.com/HaoShu2000/RTC-GTNLN) |
+| [Robust Tensor Completion via Gradient Tensor Nuclear L1-L2 Norm for Traffic Data Recovery](https://arxiv.org/abs/2506.22732) | IEEE TITS | 2026 | [GitHub](https://github.com/HaoShu2000/RTC-GTNLN) |
 
 ## Bayesian Probabilistic LRTL
 ### Bayesian Probabilistic Factorization
@@ -284,23 +282,14 @@ If you find this survey useful for your research, please consider citing:
 | [A 3D Convolution-Incorporated Dimension Preserved Decomposition Model for Traffic Data Prediction](https://doi.org/10.1109/TITS.2024.3486963) | IEEE TITS | 2024 | DPD | |
 
 ### Other Tasks
-#### Pattern Discovery
 | Paper | Venue | Year | Technique | Code |
 | -------- | :--------: | -------- | :--------: | :--------: |
 | [Revealing heterogeneous spatiotemporal traffic flow patterns of urban road network via tensor decomposition-based clustering approach](https://doi.org/10.1016/j.physa.2019.03.053) | Physica A: Statistical Mechanics and its Applications | 2019 | CP | |
 | [Simultaneous Incomplete Traffic Data Imputation and Similarity Pattern Discovery with Bayesian Nonparametric Tensor Decomposition](https://doi.org/10.1155/2020/8810753) | Journal of advanced transportation | 2020 | CP-B | |
 | [Nonrecurrent traffic congestion detection with a coupled scalable Bayesian robust tensor factorization model](https://doi.org/10.1016/j.neucom.2020.10.091) | Neurocomputing | 2021 | CP-B | |
-| [Discovering Dynamic Patterns From Spatiotemporal Data With Time-Varying Low-Rank Autoregression](https://doi.org/10.1109/TKDE.2023.3294440) | IEEE TKDE | 2023 | Tucker | [GitHub](https://github.com/xinychen/vars) |
-#### Anomaly Detection
-| Paper | Venue | Year | Technique | Code |
-| -------- | :--------: | -------- | :--------: | :--------: |
-| [Diagnosing Spatiotemporal Traffic Anomalies With Low-Rank Tensor Autoregression](https://doi.org/10.1109/TITS.2020.3044466) | IEEE TITS | 2021 | CP | |
-| [Hankel-structured Tensor Robust PCA for Multivariate Traffic Time Series Anomaly Detection](https://arxiv.org/abs/2110.04352) | arXiv | 2021 | NN | |
 | [GLOSS: Tensor-based anomaly detection in spatiotemporal urban traffic data](https://doi.org/10.1016/j.sigpro.2021.108370) | Signal Processing | 2022 | NN | |
-#### Regression
-| Paper | Venue | Year | Technique | Code |
-| -------- | :--------: | -------- | :--------: | :--------: |
 | [Scalable Spatiotemporally Varying Coefficient Modeling with Bayesian Kernelized Tensor Regression](https://doi.org/10.1214/24-BA1428) | Bayesian Analysis | 2024 | CP-B | [GitHub](https://github.com/MengyingLei/stBKLM) [CRAN](https://cran.r-project.org/package=BKTR) |
+
 
 ## Spatiotemporal Constraints
 ### Spatial Constraints
@@ -354,7 +343,6 @@ If you find this survey useful for your research, please consider citing:
 | [Low-Rank Autoregressive Tensor Completion for Spatiotemporal Traffic Data Imputation](https://doi.org/10.1109/TITS.2021.3113608) | IEEE TITS | 2021 | 𝓡<sub>AR</sub> | [GitHub](https://github.com/xinychen/transdim) |
 | [Discovering Dynamic Patterns From Spatiotemporal Data With Time-Varying Low-Rank Autoregression](https://doi.org/10.1109/TKDE.2023.3294440) | IEEE TKDE | 2023 | 𝓡<sub>AR</sub> | [GitHub](https://github.com/xinychen/vars) |
 | [Bayesian Temporal Factorization for Multidimensional Time Series Prediction](https://doi.org/10.1109/TPAMI.2021.3066551) | IEEE TPAMI | 2021 | 𝓟<sub>AR</sub> | [GitHub](https://github.com/xinychen/transdim) |
-| [Hankel-structured Tensor Robust PCA for Multivariate Traffic Time Series Anomaly Detection](https://arxiv.org/abs/2110.04352) | arXiv | 2021 | 𝓡<sub>Hankel</sub> |
 | [Low-Rank Hankel Tensor Completion for Traffic Speed Estimation](https://doi.org/10.1109/TITS.2023.3247961) | IEEE TITS | 2023 | 𝓡<sub>Hankel</sub> |
 | [Forecasting Urban Traffic States with Sparse Data Using Hankel Temporal Matrix Factorization](https://doi.org/10.1287/ijoc.2022.0197) | INFORMS Journal on Computing | 2024 | 𝓡<sub>Hankel</sub> | [GitHub](https://github.com/INFORMSJoC/2022.0197) |
 | [Generalized Least Squares Kernelized Tensor Factorization](https://arxiv.org/abs/2412.07041) | arXiv | 2024 | 𝓡<sub>cov</sub> | [GitHub](https://github.com/MengyingLei/GLSKF) |
