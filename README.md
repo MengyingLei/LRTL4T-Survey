@@ -356,16 +356,16 @@ If you find this survey useful for your research, please consider citing:
 | Traffic speed | Guangzhou urban | `location` 214 × `day` 61 × `time of day` 144 | [Link](https://doi.org/10.5281/zenodo.1205229) |
 | Traffic speed | Seattle freeway | `location` 323 × `time of day` 288 × `day` 30 |
 | Traffic speed | PeMS | `location` 11160 × `time of day` 288 × `day` 59 |
-| Traffic speed | London | `location` 35912 × `time of day` 24 × `day` 30 | [Link]( https://movement.uber.com) |
+| Traffic speed | London | `location` 35912 × `time of day` 24 × `day` 30 | [Link](https://movement.uber.com) |
 | Traffic speed | Shenzhen | `location` 2545 × `time of day` 288 × `day` 7 |
 | Traffic flow/volume | PeMS | `location` 11160 × `time of day` 288 × `day` 84 |
-| Traffic flow/volume | Portland highway | `location` 1156 × `time of day` 96 × `day` 90 | [Link]( https://portal.its.pdx.edu/home) |
-| Traffic flow/volume | Hangzhou metro | `location` 80 × `time of day` 108 × `day` 25 | [Link]( https://tianchi.aliyun.com/competition/entrance/231708/information) |
+| Traffic flow/volume | Portland highway | `location` 1156 × `time of day` 96 × `day` 90 | [Link](https://portal.its.pdx.edu/home) |
+| Traffic flow/volume | Hangzhou metro | `location` 80 × `time of day` 108 × `day` 25 | [Link](https://tianchi.aliyun.com/competition/entrance/231708/information) |
 | Traffic flow/volume | Guangzhou metro | `station` 148 × `day` 14 × `time of day` 96 | |
-| OD | Abilene | `OD pair` 144 × `time of day` 288 × `day` 168 | [Link]( https://www.cs.bu.edu/fac/crovella/abilene-distro.tar) |
+| OD | Abilene | `OD pair` 144 × `time of day` 288 × `day` 168 | [Link](https://www.cs.bu.edu/fac/crovella/abilene-distro.tar) |
 | OD | GÉANT | `OD pair` 529 × `time of day` 96 × `day` 112 | [Link](https://totem.info.ucl.ac.be/dataset.html) |
 | OD | Xuhui, Shanghai | `OD pair` 289 × `time of day` 64 × `day` 14 |
 | Occupancy | Birmingham | `location` 30 × `time of day` 18 × `day` 77 | [Link](https://archive.ics.uci.edu/ml/datasets/Parking+Birmingham) |
-| Demand (Trip record) | NYC, taxi | `zone` 69 × `zone` 69 × `time slot` 3653 | [Link]( https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) |
-| Demand (Trip record) | Montreal, BIXI | `station` 587 × `day` 196 × `covariate` 19 | [Link]( https://bixi.com) |
+| Demand (Trip record) | NYC, taxi | `zone` 69 × `zone` 69 × `time slot` 3653 | [Link](https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page) |
+| Demand (Trip record) | Montreal, BIXI | `station` 587 × `day` 196 × `covariate` 19 | [Link](https://bixi.com/en) |
 | Trajectory | Chengdu | `time interval` 588 × `link` 114 |
