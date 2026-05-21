@@ -7,7 +7,7 @@ Papers and resources on LRTL (Low-Rank Tensor Learning) for spatiotemporal Trans
 </p>
 
 ## About
-This repository is a companion to our [`survey`](https://doi.org/10.1016/j.ait.2025.100035) (PDF version: [`LRTL4T_Survey.pdf`](LRTL4T_Survey.pdf)):
+This repository is a companion to our [`Survey`](https://doi.org/10.1016/j.ait.2025.100035) (PDF version: [LRTL4T_Survey.pdf](LRTL4T_Survey.pdf)):
 > Lei, Mengying and Sun, Lijun (2025).  
 > Low-rank tensor learning for spatiotemporal traffic and mobility data: A survey.
 > *Artificial Intelligence for Transportation*, 3, 100035.
@@ -16,8 +16,8 @@ This repository is a companion to our [`survey`](https://doi.org/10.1016/j.ait.2
 - :globe_with_meridians: Publisher version: Open access on the [journal page](https://doi.org/10.1016/j.ait.2025.100035) -->
 
 The goals of this repository are to:
-- organize existing LRTL methods for traffic data in a consistent taxonomy;
-- provide links to papers, preprints, code, and datasets.
+- Organize existing LRTL methods for traffic data in a consistent taxonomy;
+- Provide links to papers, preprints, code, and datasets.
 <!-- - highlight relevant datasets that have been used in the literature. -->
 
 If you work on related topics, feel free to suggest additional references or corrections.
